@@ -1,0 +1,47 @@
+.slideshow-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .h2-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 90vw;
+    border-bottom: 2px solid black;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+
+  .slideshow {
+    margin-top: 1rem;
+  }
+
+  //   .each-slide {
+  //     border-top: 5px solid firebrick;
+  //     border-bottom: 5px solid firebrick;
+  //   }
+
+  .each-slide div {
+    height: 50vh;
+    background: no-repeat center 0vw fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .learn-more {
+    position: absolute;
+    top: 87%;
+    align-self: center;
+    padding: 0.5rem;
+    background-color: firebrick;
+    color: white;
+    border-radius: 3px;
+  }
+}
