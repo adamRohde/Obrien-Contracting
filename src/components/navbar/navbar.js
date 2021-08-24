@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="heading">
         <h1>Obrien Contracting</h1>
 
-        <h3>ph: 612-446-6583</h3>
+        <h3>ph: 612-242-5933</h3>
       </div>
       <nav>
         <div className="in-nav-logo">

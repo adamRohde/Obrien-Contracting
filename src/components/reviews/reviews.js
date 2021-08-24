@@ -11,19 +11,21 @@ function reviews() {
         enim nec est porttitor gravida. Lorem ipsum dolor sit amet,
         consectetur adipiscing elit.{" "}
       </p>
-      <br></br>
-      <br></br>
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu
         enim nec est porttitor gravida. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit.{" "}
+        consectetur adipiscing elit. dolor sit amet, consectetur adipiscing
+        elit. Proin eu enim nec est porttitor gravida. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit. Lorem ipsum dol
       </p>
-      <br></br>
-      <br></br>
+      {/* <br></br> */}
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu
         enim nec est porttitor gravida. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit.{" "}
+        consectetur adipiscing elit. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Proin eu enim nec est porttitor
+        gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
       </p>
     </div>
   );
