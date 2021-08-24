@@ -5,6 +5,8 @@ import { Slide } from "react-slideshow-image";
 import pic1 from "../../images/project-pic1.jpg";
 import pic2 from "../../images/project-pic2.jpg";
 import pic3 from "../../images/project-pic3.jpg";
+import pic4 from "../../images/project-pic4.jpg";
+import pic5 from "../../images/project-pic5.jpg";
 
 function slideshow() {
   return (
@@ -22,6 +24,12 @@ function slideshow() {
           </div>
           <div className="each-slide">
             <div style={{ backgroundImage: `url(${pic3})` }}></div>
+          </div>
+          <div className="each-slide">
+            <div style={{ backgroundImage: `url(${pic4})` }}></div>
+          </div>
+          <div className="each-slide">
+            <div style={{ backgroundImage: `url(${pic5})` }}></div>
           </div>
         </Slide>
       </div>
