@@ -24,7 +24,7 @@ const Navbar = () => {
           <li
             href="#"
             onClick={() => {
-              console.log("about");
+              setSidebar(!sidebar);
               scrollTo("#about");
             }}
           >
@@ -33,8 +33,7 @@ const Navbar = () => {
           <li
             href="#"
             onClick={() => {
-              console.log("services");
-
+              setSidebar(!sidebar);
               scrollTo("#services");
             }}
           >
@@ -43,8 +42,7 @@ const Navbar = () => {
           <li
             href="#"
             onClick={() => {
-              console.log("reviews");
-
+              setSidebar(!sidebar);
               scrollTo("#reviews");
             }}
           >
@@ -53,7 +51,7 @@ const Navbar = () => {
           <li
             href="#"
             onClick={() => {
-              console.log("photos of work");
+              setSidebar(!sidebar);
               scrollTo("#gallery");
             }}
           >
@@ -62,7 +60,7 @@ const Navbar = () => {
           <li
             href="#"
             onClick={() => {
-              console.log("contact");
+              setSidebar(!sidebar);
               scrollTo("#contact");
             }}
           >
