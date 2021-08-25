@@ -15,24 +15,24 @@ const IndexPage = () => {
     <main>
       <title>Obrien Contracting</title>
       <NavBar></NavBar>
-      <div id="hero">
+      <section id="hero">
         <Hero></Hero>
-      </div>
-      <div id="about">
+      </section>
+      <section id="about">
         <About></About>
-      </div>
-      <div id="services">
+      </section>
+      <section id="services">
         <Services></Services>
-      </div>
-      <div id="reviews">
+      </section>
+      <section id="reviews">
         <Reviews></Reviews>
-      </div>
-      <div id="gallery">
+      </section>
+      <section id="gallery">
         <SlideShow></SlideShow>
-      </div>
-      <div id="contact">
+      </section>
+      <section id="contact">
         <Contact></Contact>
-      </div>
+      </section>
     </main>
   );
 };
