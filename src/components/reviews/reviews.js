@@ -9,7 +9,9 @@ function reviews() {
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu
         enim nec est porttitor gravida. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit.{" "}
+        consectetur adipiscing elit. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Proin eu enim nec est porttitor
+        gravida. Lorem ipsum dolor sit amet, consectetur adipiscing{" "}
       </p>
 
       <p>
