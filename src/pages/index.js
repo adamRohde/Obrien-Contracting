@@ -2,9 +2,9 @@ import * as React from "react";
 import "../styles/main.scss";
 import "react-slideshow-image/dist/styles.css";
 import NavBar from "../components/navbar/navbar";
-import SlideShow from "../components/slideshow/slideshow";
 import About from "../components/about/about";
 import Services from "../components/services/services";
+import Gallery from "../components/gallery/gallery";
 import Reviews from "../components/reviews/reviews";
 import Contact from "../components/contact/contact";
 import Hero from "../components/hero/hero";
@@ -24,7 +24,7 @@ const IndexPage = () => {
           <Services></Services>
         </section>
         <section id="gallery">
-          <SlideShow></SlideShow>
+          <Gallery></Gallery>
         </section>
         <section id="reviews">
           <Reviews></Reviews>

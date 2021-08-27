@@ -5,4 +5,33 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
+
+  .h2-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 90vw;
+    border-bottom: 2px solid black;
+  }
+  h2 {
+    margin-top: 2rem;
+  }
+
+  .spacer-container {
+    margin: 1rem 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h3 {
+        margin: 1rem;
+      }
+    }
+  }
 }
