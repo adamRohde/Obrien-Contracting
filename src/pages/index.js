@@ -15,7 +15,7 @@ const IndexPage = () => {
     <main>
       <title>Obrien Contracting</title>
       <NavBar></NavBar>
-      <section id="hero">
+      <section id="home">
         <Hero></Hero>
       </section>
       <section id="about">
