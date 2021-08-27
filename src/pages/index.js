@@ -24,12 +24,13 @@ const IndexPage = () => {
       <section id="services">
         <Services></Services>
       </section>
-      <section id="reviews">
-        <Reviews></Reviews>
-      </section>
       <section id="gallery">
         <SlideShow></SlideShow>
       </section>
+      <section id="reviews">
+        <Reviews></Reviews>
+      </section>
+
       <section id="contact">
         <Contact></Contact>
       </section>

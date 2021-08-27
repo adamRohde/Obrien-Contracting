@@ -16,7 +16,7 @@
   }
 
   .hero-picture {
-    margin-top: 5rem;
+    margin-top: 2rem;
     background: no-repeat center 0vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,5 +26,14 @@
     height: 50vh;
     border-top: 5px solid firebrick;
     border-bottom: 5px solid firebrick;
+  }
+
+  //#############################  Less than 991px  #############################
+  //#############################  Less than 991px  #############################
+  //#############################  Less than 991px  #############################
+  @media screen and (max-width: 991px) {
+    .hero-picture {
+      margin-top: 5rem;
+    }
   }
 }
