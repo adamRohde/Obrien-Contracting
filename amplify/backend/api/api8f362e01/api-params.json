@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "obriencontracting9bbe333e",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "api8f362e01",
+  "apiName": "api8f362e01",
+  "functionArns": [
+    {
+      "lambdaFunction": "obriencontracting9bbe333e"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-obriencontracting-dev-202039-authRole",
+    "unAuthRoleName": "amplify-obriencontracting-dev-202039-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "obriencontracting9bbe333e",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
