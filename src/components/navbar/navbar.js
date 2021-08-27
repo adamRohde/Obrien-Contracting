@@ -25,6 +25,15 @@ const Navbar = () => {
             href="#"
             onClick={() => {
               setSidebar(!sidebar);
+              scrollTo("#main-container");
+            }}
+          >
+            <a>Home</a>
+          </li>
+          <li
+            href="#"
+            onClick={() => {
+              setSidebar(!sidebar);
               scrollTo("#about");
             }}
           >
