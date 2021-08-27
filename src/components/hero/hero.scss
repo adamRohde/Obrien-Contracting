@@ -10,7 +10,7 @@
     top: 87%;
     align-self: center;
     padding: 0.5rem;
-    background-color: firebrick;
+    background-color: black;
     color: white;
     border-radius: 3px;
   }
@@ -24,8 +24,12 @@
     background-size: cover;
     width: 100vw;
     height: 50vh;
-    border-top: 5px solid firebrick;
-    border-bottom: 5px solid firebrick;
+    // border-top: 5px solid firebrick;
+    // border-bottom: 5px solid firebrick;
+    // border-top: 5px solid rgb(123, 18, 18);
+    // border-bottom: 5px solid rgb(123, 18, 18);
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
   }
 
   //#############################  Less than 991px  #############################

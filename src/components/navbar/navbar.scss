@@ -6,8 +6,11 @@ nav {
   align-items: center;
   height: 6vh;
   width: 100%;
-  background-color: black;
+  background-color: rgb(123, 18, 18);
   z-index: 99;
+  // border-top: 3px solid rgb(87, 12, 12);
+  border-top: 1px solid rgb(209, 209, 209);
+  border-bottom: 1px solid rgb(209, 209, 209);
   // font-family: "Poppins", sans-serif;
 }
 
@@ -82,6 +85,7 @@ nav {
     margin-top: 0vh;
     height: 8vh;
     background-color: white;
+    border-top: none;
     border-bottom: 1px solid rgb(209, 209, 209);
   }
 
