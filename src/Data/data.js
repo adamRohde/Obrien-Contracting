@@ -1,8 +1,8 @@
-import gallery_picture1 from "../images/project-pic1.jgp";
-import gallery_picture2 from "../images/project-pic2.jgp";
-import gallery_picture3 from "../images/project-pic5.jgp";
-import gallery_picture4 from "../images/project-pic4.jgp";
-import gallery_picture5 from "../images/project-pic5.jgp";
+import gallery_picture1 from "../images/project-pic1.jpg";
+import gallery_picture2 from "../images/project-pic2.jpg";
+import gallery_picture3 from "../images/project-pic5.jpg";
+import gallery_picture4 from "../images/project-pic4.jpg";
+import gallery_picture5 from "../images/project-pic5.jpg";
 import about_picture from "../images/rory.jpg";
 
 export default {
@@ -59,6 +59,6 @@ export default {
     id: 6,
     mobile: "612-242-5933",
     email: "cheshstyles@hotmail.com",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/rory-o-brien-1b1a2a1a4/",
   },
 };

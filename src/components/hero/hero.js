@@ -1,15 +1,14 @@
 import React from "react";
 import heropic from "../../images/project-pic2.jpg";
 import scrollTo from "gatsby-plugin-smoothscroll";
-
-// import mepic from "../../images/rory.jpg";
+import data from "../../Data/data";
 
 function hero() {
   return (
     <div className="hero-container">
       <div
         className="hero-picture"
-        style={{ backgroundImage: `url(${heropic})` }}
+        style={{ backgroundImage: `url(${data.home.hero_picture})` }}
       ></div>
 
       <button

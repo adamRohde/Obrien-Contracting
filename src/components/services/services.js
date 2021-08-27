@@ -1,4 +1,5 @@
 import React from "react";
+import data from "../../Data/data";
 
 function services() {
   return (
@@ -6,18 +7,14 @@ function services() {
       <div className="h2-container">
         <h2>Services</h2>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu
-        enim nec est porttitor gravida. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit.{" "}
-      </p>
+      <p>{data.services.intro}</p>
 
       <ul>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>luctus tortor</li>
-        <li>Curabitur at felis non</li>
-        <li>Curabitur at felis non</li>
-        <li>Curabitur at felis non</li>
+        <li>{data.services.service1}</li>
+        <li>{data.services.service2}</li>
+        <li>{data.services.service3}</li>
+        <li>{data.services.service4}</li>
+        <li>{data.services.service5}</li>
       </ul>
     </div>
   );

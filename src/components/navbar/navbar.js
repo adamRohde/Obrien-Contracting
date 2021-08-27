@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import scrollTo from "gatsby-plugin-smoothscroll";
+import data from "../../Data/data";
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -12,13 +13,13 @@ const Navbar = () => {
   return (
     <>
       <div className="heading">
-        <h1>Obrien Contracting</h1>
+        <h1>{data.home.companyname}</h1>
 
-        <h3>Mobile: 612-242-5933</h3>
+        <h3>Mobile: {data.home.mobilenumber}</h3>
       </div>
       <nav>
         <div className="in-nav-logo">
-          <h4>Obrien Contracting</h4>
+          <h4>{data.home.companyname}</h4>
         </div>
         <ul className={sidebar ? "nav-links nav-active" : "nav-links"}>
           <li
